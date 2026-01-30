@@ -5,6 +5,9 @@ persists after the program exits. Users should be able to view all recorded expe
 spending, including totals grouped by category. The application should handle invalid input gracefully,
 provide a simple text-based menu for navigation, and keep the internal logic organized using functions 
 and appropriate data structures to clearly separate user interaction, data processing, and file storage.
-Work on:
-    write the data to a json and csv file using a new class called file writer
-    add error handling
+
+NEED TO FIX SAVINGS TO NOT MAKE USER REENTER FIRST QUESTOIN IF SECOND FAILS
+    
+
+
+

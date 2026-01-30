@@ -2,8 +2,8 @@ import json
 import csv
 
 class FileWriter:
-    
-    def write_json(self,report,total):
+    #writing the users expenses to a json file
+    def write_json(self,report):
         file_path_json = "output.json"
         data = {
             "expenses": [
@@ -26,6 +26,7 @@ class FileWriter:
         except FileExistsError:
             print("That file already exists.")
 
+    #writing the users expenses and expense total into a txt file
     def write_txt(self,report,total):
         file_path_txt = "output.txt"
         try:
@@ -39,7 +40,8 @@ class FileWriter:
         except FileExistsError:
             print("That file already exists.")
 
-    def write_csv(self,expense,total):
+    #writing the users expenses into a csv file
+    def write_csv(self,expense):
         file_path_csv = "output.csv"
 
         try:
