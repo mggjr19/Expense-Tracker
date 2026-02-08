@@ -1,0 +1,94 @@
+####################################
+# Python bytecode & caches
+####################################
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+####################################
+# Virtual environments
+####################################
+
+.venv/
+venv/
+env/
+ENV/
+
+
+####################################
+# Distribution / packaging
+####################################
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+####################################
+# Installer logs
+####################################
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+####################################
+# Unit test / coverage reports
+####################################
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+
+####################################
+# Jupyter Notebook
+####################################
+
+.ipynb_checkpoints/
+
+
+####################################
+# VS Code / IDEs
+####################################
+
+.vscode/
+.idea/
+.vs/
+
+
+####################################
+# OS-generated files
+####################################
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+
+####################################
+# Misc
+####################################
+
+*.log
+*.tmp
+*.sqlite
+.env
+.env.*
+
+# Eclipse junk (even if you no longer use Eclipse)
+.metadata/
+.recommenders/
+.settings/
+.project
+.classpath
+*.launch
